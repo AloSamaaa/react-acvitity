@@ -4,7 +4,7 @@ export default function Contact() {
     return(
     <>
     <div className="row mt-3">
-        <div className="col-7">
+        <div className="col-md-7">
           <div className="container border ps-4 pt-5 fw-bold shadow-lg pb-5">
          <div className ="contactus">
             Contact us:<br/>
@@ -18,7 +18,7 @@ export default function Contact() {
          </div>       
           </div>
         </div>
-        <div className="col-5">
+        <div className="col-md-5">
           <div className="container border ps-4 pt-5 fw-bold shadow-lg pb-5">
             <Googlemap />
           </div>

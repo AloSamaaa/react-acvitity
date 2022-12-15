@@ -19,7 +19,7 @@ const Clock = () => {
   return (
     <>
       <div className="row mt-3">
-        <div className="col-3">
+        <div className="col-md-3">
           <Profile />
           <div className="container border ps-4 pt-5 fw-bold shadow-lg mt-5" id="userinfo">
             {currentTime}
@@ -28,7 +28,7 @@ const Clock = () => {
             <br />
           </div>
         </div>
-        <div className="col-9" style={{ overflowY: 'scroll', maxHeight: '70vh' }}>
+        <div className="col-md-9" style={{ overflowY: 'scroll', maxHeight: '70vh' }}>
           <div className="container border ps-4 pt-5 fw-bold shadow-lg pb-5">
             <Posts />
           </div>
