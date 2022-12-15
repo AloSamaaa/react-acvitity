@@ -2,12 +2,12 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom"
 
 export default function Navbar() {
   return (
-    <nav className="nav">
-      <ul className="pt-2 shadow-lg">
-        <NavBar2 to="/">Home</NavBar2>
-        <NavBar2 to="/Contact">Contact</NavBar2>
-        <NavBar2 to="/about">About</NavBar2>
-      </ul>
+    <nav className="nav d-flex justify-content-end">
+        <ul className="pt-2 shadow-lg pe-5" id="navaaa">
+          <NavBar2 to="/">Home</NavBar2>
+          <NavBar2 to="/Contact">Contact</NavBar2>
+          <NavBar2 to="/about">About</NavBar2>
+        </ul>
     </nav>
   )
 }
